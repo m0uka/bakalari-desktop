@@ -1,0 +1,39 @@
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\bin\Debug\BakalariDesktop.exe.config
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\bin\Debug\BakalariDesktop.exe
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\bin\Debug\BakalariDesktop.pdb
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\App.g.cs
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop_MarkupCompile.cache
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop_MarkupCompile.lref
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.g.resources
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.Properties.Resources.resources
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.csproj.GenerateResource.Cache
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.exe
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\BakalariDesktop.pdb
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\LoginWindow.g.cs
+C:\Users\Miluse\AppData\Local\Temporary Projects\BakalariDesktop\obj\Debug\LoginWindow.baml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\BakalariDesktop.exe.config
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\BakalariDesktop.exe
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\BakalariDesktop.pdb
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\LoginWindow.g.cs
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\App.g.cs
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop_MarkupCompile.cache
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop_MarkupCompile.lref
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\LoginWindow.baml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.g.resources
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.Properties.Resources.resources
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.csproj.GenerateResource.Cache
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.exe
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\BakalariDesktop.pdb
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\Dashboard.g.cs
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\Dashboard.baml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\MaterialDesignColors.dll
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\obj\Debug\App.baml
+C:\Users\Miluse\Documents\Visual Studio 2017\Projects\BakalariDesktop\BakalariDesktop\bin\Debug\ShowMeTheXAML.dll

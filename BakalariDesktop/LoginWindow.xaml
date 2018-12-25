@@ -1,0 +1,52 @@
+﻿<Window x:Name="LoginWindow1" x:Class="BakalariDesktop.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BakalariDesktop"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:smtx="clr-namespace:ShowMeTheXAML;assembly=ShowMeTheXAML"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="LoginWindow" Height="343.5" Width="439.441">
+    <Grid>
+
+        <materialDesign:DialogHost IsOpen="False" x:Name="loadingDialog" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <materialDesign:DialogHost.DialogContent>
+                <ProgressBar Style="{DynamicResource MaterialDesignCircularProgressBar}" Margin="16" IsIndeterminate="True" Value="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+        <materialDesign:DialogHost IsOpen="False" x:Name="errorDialog" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <materialDesign:DialogHost.DialogContent>
+                <StackPanel Margin="15" Orientation="Vertical">
+                    <TextBlock>Neúspěšné přihlášení.</TextBlock>
+                    <TextBlock>Zkontroluj přihlašovací údaje a připojení Bakalářů.</TextBlock>
+                    <Button Margin="0 10 0 0" Width="80" Content="Zavřít" Click="closeErrorDialog"></Button>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+
+
+        <Label Content="Přihlášení" Margin="10,0,272,250" VerticalAlignment="Bottom" RenderTransformOrigin="0.447,-0.192" FontSize="32" HorizontalAlignment="Center" Width="149"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical" Margin="51,68,44,54">
+            <TextBox x:Name="usernameBox" materialDesign:HintAssist.Hint="Uživatelské jméno" HorizontalAlignment="Left" FontSize="22" Height="35" Margin="10" VerticalAlignment="Top" Width="313" TextChanged="usernameBox_TextChanged"/>
+            <PasswordBox x:Name="passwordBox" materialDesign:HintAssist.Hint="Heslo" HorizontalAlignment="Left" FontSize="22" Height="35" Margin="10" VerticalAlignment="Top" Width="313"/>
+            <TextBox x:Name="urlBox" materialDesign:HintAssist.Hint="URL adresa školy" HorizontalAlignment="Left" FontSize="20" Height="35" Margin="10,10,0,10" VerticalAlignment="Top" Width="313"/>
+
+        </StackPanel>
+
+        <Button x:Name="loginButton" Content="Přihlásit se" HorizontalAlignment="Left" Height="30" Margin="283,264,0,0" VerticalAlignment="Top" Width="115" Click="loginButton_Click"/>
+
+
+
+    </Grid>
+</Window>

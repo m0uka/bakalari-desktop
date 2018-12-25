@@ -1,0 +1,145 @@
+﻿<Window x:Class="BakalariDesktop.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BakalariDesktop"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:smtx="clr-namespace:ShowMeTheXAML;assembly=ShowMeTheXAML"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Dashboard" Height="542.308" Width="1000.698">
+    <Grid>
+
+
+        <materialDesign:DialogHost IsOpen="False" x:Name="loadingDialog" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <materialDesign:DialogHost.DialogContent>
+                <ProgressBar Style="{DynamicResource MaterialDesignCircularProgressBar}" Margin="16" IsIndeterminate="True" Value="0" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+
+
+        <Grid Height="60" VerticalAlignment="Top" Background="#3F51B5">
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <TextBlock Text="Jmeno" Foreground="White" x:Name="jmenoLabel" FontSize="16" VerticalAlignment="Center"/>
+                <materialDesign:PopupBox Margin="10" StaysOpen="False" PlacementMode="BottomAndAlignRightEdges" Foreground="#FFFFFFFF">
+                    <StackPanel Width="150">
+                        <Button Content="Nastavení"/>
+                        <Button Content="Account"/>
+                        <Separator/>
+                        <Button x:Name="logOutBtn" Content="Odhlásit se" Click="logOutBtn_Click"/>
+                    </StackPanel>
+                </materialDesign:PopupBox>
+            </StackPanel>
+        </Grid>
+
+        <Grid Width="200" HorizontalAlignment="Left" Background="#FF222222">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.2}">
+                <Grid x:Name="GridCursor" Margin="0 60 0 0" Background="#FF0069C0" Width="10" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top"/>
+            </materialDesign:TransitioningContent>
+
+            <ListView x:Name="ListViewMenu" Margin="0 60" Foreground="LightGray" FontFamily="Champagne &amp; Limousines" FontSize="18" SelectedIndex="0">
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Home" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="Domov" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="FormatListBulleted" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="Známky" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Timetable" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <TextBlock Text="Rozvrh" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </Grid>
+
+
+        <Grid x:Name="ZnamkyGrid" ScrollViewer.CanContentScroll="True">
+            <Grid Margin="225,100,25,0">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <StackPanel x:Name="predmety">
+                        
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+        
+
+
+        <Grid Visibility="Hidden" x:Name="DomovGrid">
+
+
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="269" Height="323">
+                <materialDesign:Card Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8" Margin="10">
+                    <TextBlock x:Name="grade1" FontSize="16"/>
+                </materialDesign:Card>
+
+                <materialDesign:Card Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8" Margin="10">
+                    <TextBlock x:Name="grade2" FontSize="16">
+
+
+                    </TextBlock>
+                </materialDesign:Card>
+
+                <materialDesign:Card Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8" Margin="10">
+                    <TextBlock x:Name="grade3" FontSize="16">
+
+
+                    </TextBlock>
+                </materialDesign:Card>
+
+                <materialDesign:Card Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8" Margin="10">
+                    <TextBlock x:Name="grade4" FontSize="16">
+
+
+                    </TextBlock>
+                </materialDesign:Card>
+
+                <materialDesign:Card Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8" Margin="10">
+                    <TextBlock x:Name="grade5" FontSize="16">
+
+
+                    </TextBlock>
+                </materialDesign:Card>
+            </StackPanel>
+
+        </Grid>
+
+        <materialDesign:Snackbar 
+        HorizontalAlignment="Stretch" 
+        MessageQueue="{materialDesign:MessageQueue}" 
+        x:Name="Snackbar" 
+        Margin="15 0 350 15"
+        
+        Grid.Row="1" 
+        Grid.ColumnSpan="2" />
+
+
+    </Grid>
+
+</Window>
